@@ -1,0 +1,27 @@
+{
+  "name": "raptor-arrays",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "Utility functions for working with arrays",
+  "keywords": [
+    "arrays",
+    "util"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raptorjs3/raptor-arrays.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
+  },
+  "author": "Patrick Steele-Idem <psteeleidem@ebay.com>",
+  "maintainers": "Patrick Steele-Idem <psteeleidem@ebay.com>",
+  "dependencies": {
+    "raptor-util": "0.1.0-SNAPSHOT"
+  },
+  "devDependencies": {},
+  "license": "Apache License v2.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "lib/arrays.js"
+}
