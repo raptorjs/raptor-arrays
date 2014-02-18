@@ -23,5 +23,5 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "main": "lib/arrays.js"
+  "main": "lib/raptor-arrays.js"
 }
