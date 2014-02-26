@@ -11,14 +11,16 @@
     "url": "https://github.com/raptorjs3/raptor-arrays.git"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
+    "test": "node_modules/.bin/jshint lib"
   },
   "author": "Patrick Steele-Idem <pnidem@gmail.com>",
   "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
   "dependencies": {
     "raptor-util": "^0.2.0-beta"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "~2.4.4"
+  },
   "license": "Apache License v2.0",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
