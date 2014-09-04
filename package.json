@@ -1,6 +1,6 @@
 {
   "name": "raptor-arrays",
-  "version": "0.2.0-beta",
+  "version": "1.0.0-beta",
   "description": "Utility functions for working with arrays",
   "keywords": [
     "arrays",
